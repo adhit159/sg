@@ -1,4 +1,4 @@
-package com.sg.emp.dto;
+package com.sg.emp.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
