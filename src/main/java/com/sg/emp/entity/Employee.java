@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "employees")
 public class Employee {
 
-	private long id;
+	private Long id;
 	private String firstName;
 	private String lastName;
 	private String gender;
@@ -24,10 +24,10 @@ public class Employee {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	

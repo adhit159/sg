@@ -2,16 +2,23 @@ package com.sg.emp.model;
 
 import java.io.Serializable;
 
-public class EmployeeModel implements Serializable {
+public class EmployeeModelResponse implements Serializable {
+
+	private static final long serialVersionUID = -3992645407838012681L;
 	
-	
-	private static final long serialVersionUID = -6916776338925402993L;
-	
+	private Long id;
 	private String firstName;
 	private String lastName;
 	private String gender;
 	private String dob;
 	private String dept;
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
@@ -43,4 +50,5 @@ public class EmployeeModel implements Serializable {
 		this.dept = dept;
 	}
 	
+
 }
