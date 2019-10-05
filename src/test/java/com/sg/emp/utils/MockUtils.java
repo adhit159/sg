@@ -5,7 +5,7 @@ import java.util.Date;
 import com.sg.emp.entity.Employee;
 import com.sg.emp.model.EmployeeModel;
 
-public class MockUtils {
+public final class MockUtils {
 	
 	public static EmployeeModel mockEmpModel() {
 		

@@ -12,6 +12,9 @@ public class EmployeeModel implements Serializable {
 	private String gender;
 	private String dob;
 	private String dept;
+	
+	Status status = new Status();
+	
 	public String getFirstName() {
 		return firstName;
 	}
